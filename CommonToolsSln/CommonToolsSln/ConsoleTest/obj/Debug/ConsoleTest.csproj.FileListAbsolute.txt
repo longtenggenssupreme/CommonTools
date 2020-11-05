@@ -1,0 +1,7 @@
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.exe
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.pdb
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.exe
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.pdb

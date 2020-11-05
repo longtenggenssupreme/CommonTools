@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonTools", "CommonTools", "{5C2B14EA-17D9-4F09-BB6B-873CD4392DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3B2C8798-A005-4082-A38F-16BAF57881F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComLibs", "ComLibs\ComLibs.csproj", "{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFD38826-9451-48F0-AF97-86E1A7D13E2E}"
+	ProjectSection(SolutionItems) = preProject
+		记录.md = 记录.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93CBFDE7-3DEF-4B9C-A7F4-C0BBF3218571} = {3B2C8798-A005-4082-A38F-16BAF57881F9}
+		{BBE8FE91-E914-4D64-AE60-A29ABE7B3CDD} = {5C2B14EA-17D9-4F09-BB6B-873CD4392DF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5077C9B3-B053-4406-887C-92A6D9363B46}
+	EndGlobalSection
+EndGlobal
