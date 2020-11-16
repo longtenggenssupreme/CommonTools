@@ -12,8 +12,10 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
             CommonTool tool = new CommonTool();
-            var ss = tool.GetHttp();
+            var ss = tool.GetHttpPost();
             Console.WriteLine($"{ss}");
+            //var ss = tool.GetHttp();
+            //Console.WriteLine($"{ss}");
             Console.ReadLine();
         }
     }

@@ -95,7 +95,7 @@ namespace ComLibs
             return GetRandomNumber(min, max);
         }
 
-        public string GetHttp()
+        public string GetHttpPost()
         {
             Encoding myEncoding = Encoding.GetEncoding("gb2312");
             string data = "sn=123&lanMac=6666&wifiMac=8888&wifi=张三";
@@ -111,6 +111,36 @@ namespace ComLibs
             {
                 reqStream.Write(bytesToPost, 0, bytesToPost.Length);
             }
+            HttpWebResponse cnblogsRespone = (HttpWebResponse)req.GetResponse();
+            if (cnblogsRespone != null && cnblogsRespone.StatusCode == HttpStatusCode.OK)
+            {
+                StreamReader sr;
+                using (sr = new StreamReader(cnblogsRespone.GetResponseStream()))
+                {
+                    responseResult = sr.ReadToEnd();
+                }
+                sr.Close();
+            }
+            cnblogsRespone.Close();
+            return responseResult;
+        }
+
+        public string GetHttp()
+        {
+            Encoding myEncoding = Encoding.GetEncoding("gb2312");
+            string data = "sn=123&lanMac=6666&wifiMac=8888&wifi=张三";
+            byte[] bytesToPost = Encoding.Default.GetBytes(data);
+
+            string responseResult = string.Empty;
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:27100/Terminal?t=Payment&code=base64&serviceId=32101412123&timeout=60&end=0");
+            req.Method = WebRequestMethods.Http.Get;
+            //req.ContentType = "application/x-www-form-urlencoded;charset=gb2312";
+            //req.ContentLength = bytesToPost.Length;
+
+            //using (Stream reqStream = req.GetRequestStream())
+            //{
+            //    reqStream.Write(bytesToPost, 0, bytesToPost.Length);
+            //}
             HttpWebResponse cnblogsRespone = (HttpWebResponse)req.GetResponse();
             if (cnblogsRespone != null && cnblogsRespone.StatusCode == HttpStatusCode.OK)
             {
