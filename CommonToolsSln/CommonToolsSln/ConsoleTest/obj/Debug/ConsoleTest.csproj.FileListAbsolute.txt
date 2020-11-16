@@ -5,3 +5,6 @@ F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\Cons
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.exe
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.pdb
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ComLibs.dll
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ComLibs.pdb
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
