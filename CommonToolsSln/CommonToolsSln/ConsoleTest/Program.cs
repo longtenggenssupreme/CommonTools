@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-﻿using ComLibs;
+using ComLibs;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-=======
-﻿using System;
 using System.Diagnostics;
 using System.Reflection;
->>>>>>> 5fa1eb16526b3127117df455a3a8b6ca78e7c547
 
 namespace ConsoleTest
 {
@@ -17,14 +9,12 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             CommonTool tool = new CommonTool();
             var ss = tool.GetHttpPost();
             Console.WriteLine($"{ss}");
             //var ss = tool.GetHttp();
             //Console.WriteLine($"{ss}");
             Console.ReadLine();
-=======
             if (RunningInstance() == null)
             {
                 Console.WriteLine("启动。。。");
@@ -49,13 +39,12 @@ namespace ConsoleTest
                     var local = Assembly.GetExecutingAssembly().Location;
                     Console.WriteLine($"Assembly.GetExecutingAssembly().Location：{local}");
                     if (local.Replace("/", @"\") == current.MainModule.FileName)
-                    { //Return the other process instance. 
+                    {
                         return process;
                     }
                 }
-            } //No other instance was found, return null. 
+            }
             return null;
->>>>>>> 5fa1eb16526b3127117df455a3a8b6ca78e7c547
         }
     }
 }

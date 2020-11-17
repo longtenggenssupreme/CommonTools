@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net;
 using System.IO;
+using Newtonsoft;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace ComLibs
 {
@@ -16,10 +19,24 @@ namespace ComLibs
     public class CommonTool
     {
         #region Fields and Properties
-
+        public static JsonSerializerSettings SettingISO = null;
         #endregion
 
         #region Methods
+        public CommonTool()
+        {
+            SettingISO = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            };
+            IsoDateTimeConverter iso = new IsoDateTimeConverter
+            {
+                DateTimeFormat = "yyyy-MM-dd HH:mm:ss"
+            };
+            //iso.DateTimeFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss";
+            //iso.DateTimeFormat = "yyyy-MM-dd HH:mm:ss";
+            SettingISO.Converters.Add(iso);
+        }
         /// <summary>
         /// 获取随机数
         /// </summary>
@@ -97,8 +114,10 @@ namespace ComLibs
 
         public string GetHttpPost()
         {
-            Encoding myEncoding = Encoding.GetEncoding("gb2312");
+            //Encoding myEncoding = Encoding.GetEncoding("gb2312");
+            PaymentData payment = new PaymentData { CodeBase64 = "1111111", ServiceId = "1111111", Timeout = 60, IsEnd = false };
             string data = "sn=123&lanMac=6666&wifiMac=8888&wifi=张三";
+            data = JsonConvert.SerializeObject(payment, Formatting.Indented, SettingISO);
             byte[] bytesToPost = Encoding.Default.GetBytes(data);
 
             string responseResult = string.Empty;
@@ -156,4 +175,63 @@ namespace ComLibs
         }
         #endregion
     }
+
+    #region Test
+    /// <summary>
+    /// 付款码传输对象
+    /// </summary>
+    public class PaymentData
+    {
+        /// <summary>
+        /// 付款码Base64字符串
+        /// </summary>
+        public string CodeBase64 { get; set; }
+
+        /// <summary>
+        /// 服务单号
+        /// </summary>
+        public string ServiceId { get; set; }
+
+        /// <summary>
+        /// 超时时间
+        /// </summary>
+        public int Timeout { get; set; }
+
+        /// <summary>
+        /// 结束标记
+        /// </summary>
+        public bool IsEnd { get; set; }
+    }
+
+    public class CustomJsonSerializer
+    {
+        public static JsonSerializerSettings Setting = null;
+        public static JsonSerializerSettings SettingISO = null;
+        public CustomJsonSerializer()
+        {
+            Setting = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            };
+
+            SettingISO = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            };
+            IsoDateTimeConverter iso = new IsoDateTimeConverter
+            {
+                DateTimeFormat = "yyyy-MM-dd HH:mm:ss"
+            };
+            SettingISO.Converters.Add(iso);
+
+            // IsoDateTimeConverter iso = new Newtonsoft.Json.Converters.IsoDateTimeConverter();
+            // iso.DateTimeFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss";
+            //// iso.DateTimeFormat = "yyyy-MM-dd HH:mm:ss";
+            // //JavaScriptDateTimeConverter java;
+            JavaScriptDateTimeConverter java = new JavaScriptDateTimeConverter();
+
+            Setting.Converters.Add(java);
+        }
+    }
+    #endregion
 }

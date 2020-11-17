@@ -17,3 +17,5 @@ E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debu
 E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.exe
 E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.pdb
 >>>>>>> 5fa1eb16526b3127117df455a3a8b6ca78e7c547
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\Newtonsoft.Json.xml
