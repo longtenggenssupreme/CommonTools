@@ -5,6 +5,15 @@ F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\Cons
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.exe
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.pdb
+<<<<<<< HEAD
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ComLibs.dll
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ComLibs.pdb
 F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+=======
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.exe
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\bin\Debug\ConsoleTest.pdb
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.exe
+E:\aaa\Commontool\CommonTools\CommonToolsSln\CommonToolsSln\ConsoleTest\obj\Debug\ConsoleTest.pdb
+>>>>>>> 5fa1eb16526b3127117df455a3a8b6ca78e7c547
