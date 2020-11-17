@@ -115,7 +115,7 @@ namespace ComLibs
         public string GetHttpPost()
         {
             //Encoding myEncoding = Encoding.GetEncoding("gb2312");
-            PaymentData payment = new PaymentData { CodeBase64 = "1111111", ServiceId = "1111111", Timeout = 60, IsEnd = false };
+            PaymentData payment = new PaymentData { CodeBase64 = "1111111", ServiceId = "2222", Timeout = 60, IsEnd = true };
             string data = "sn=123&lanMac=6666&wifiMac=8888&wifi=张三";
             data = JsonConvert.SerializeObject(payment, Formatting.Indented, SettingISO);
             byte[] bytesToPost = Encoding.Default.GetBytes(data);

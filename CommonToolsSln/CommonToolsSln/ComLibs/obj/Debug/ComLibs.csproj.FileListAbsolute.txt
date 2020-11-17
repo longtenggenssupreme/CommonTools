@@ -1,11 +1,3 @@
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.dll
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.pdb
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\Newtonsoft.Json.dll
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\Newtonsoft.Json.xml
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.csproj.CoreCompileInputs.cache
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.csproj.CopyComplete
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.dll
-F:\Person\CommonTools\CommonTools\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.pdb
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.dll
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.pdb
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\Newtonsoft.Json.dll
