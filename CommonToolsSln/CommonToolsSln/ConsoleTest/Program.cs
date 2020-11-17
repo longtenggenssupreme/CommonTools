@@ -9,6 +9,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
+
             CommonTool tool = new CommonTool();
             var ss = tool.GetHttpPost();
             Console.WriteLine($"{ss}");
