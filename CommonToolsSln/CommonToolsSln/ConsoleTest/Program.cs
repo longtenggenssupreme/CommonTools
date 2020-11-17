@@ -38,10 +38,11 @@ namespace ConsoleTest
                 { //确认相同进程的程序运行位置是否一样. 
                     var local = Assembly.GetExecutingAssembly().Location;
                     Console.WriteLine($"Assembly.GetExecutingAssembly().Location：{local}");
-                    if (local.Replace("/", @"\") == current.MainModule.FileName)
+                    if (local.Replace("/", @"\") != current.MainModule.FileName)
                     {
-                        return process;
+                        continue;
                     }
+                    return process;
                 }
             }
             return null;
