@@ -10,7 +10,6 @@ F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.dl
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\ComLibs.pdb
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\Newtonsoft.Json.dll
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\bin\Debug\Newtonsoft.Json.xml
-F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.csprojAssemblyReference.cache
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.csproj.CoreCompileInputs.cache
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.csproj.CopyComplete
 F:\Person\CommonTools\CommonToolsSln\CommonToolsSln\ComLibs\obj\Debug\ComLibs.dll
