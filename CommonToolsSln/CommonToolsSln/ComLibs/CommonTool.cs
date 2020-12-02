@@ -16,7 +16,7 @@ namespace ComLibs
     /// <summary>
     /// 常用工具类
     /// </summary>
-    public class CommonTool
+    public partial class CommonTool
     {
         #region Fields and Properties
         public static JsonSerializerSettings SettingISO = null;
@@ -37,6 +37,7 @@ namespace ComLibs
             //iso.DateTimeFormat = "yyyy-MM-dd HH:mm:ss";
             SettingISO.Converters.Add(iso);
         }
+
         /// <summary>
         /// 获取随机数
         /// </summary>
@@ -111,6 +112,9 @@ namespace ComLibs
             //Task.Delay(500);
             return GetRandomNumber(min, max);
         }
+
+
+
 
         public string GetHttpPost()
         {
